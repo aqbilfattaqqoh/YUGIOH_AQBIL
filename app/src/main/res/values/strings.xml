@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">yugioh</string>
+    <string name="Aplikasi_Daftar_YuGiOh">Aplikasi Daftar YuGiOh</string>
+    <string name="Yuk_lihat_informasi_YuGiOh">Yuk lihat informasi YuGiOh</string>
+    <string name="nama_kartu">Nama Kartu :</string>
+    <string name="tipe_kartu">"Tipe Kartu : "</string>
+    <string name="des_kartu">"Des Kartu : "</string>
+    <string name="atk_kartu">"ATK : "</string>
+    <string name="def_kartu">"DEF : "</string>
+    <string name="att_kartu">"Atribut : "</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_klik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_nama_kartu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Kartu : " />
+
+            <TextView
+                android:id="@+id/tv_tipe_kartu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tipe Kartu : " />
+
+            <TextView
+                android:id="@+id/tv_des_kartu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Des Kartu : " />
+
+            <TextView
+                android:id="@+id/tv_atk_kartu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:text="Atk Kartu :" />
+
+            <TextView
+                android:id="@+id/tv_def_kartu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Def Kartu :" />
+
+            <TextView
+                android:id="@+id/tv_att_kartu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Att Kartu : " />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:background="@color/colorPrimary" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
